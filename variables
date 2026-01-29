@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+person1="sachin"
+person2="venki"
+
+echo "$person1:: Hi $person2, how are you?"
+echo "$person2:: I am good $person1, thank you!"
+echo "Both $person1 and $person2 what are you learning recently."
+echo "$person1:: I am learning shell scripting."
+echo "$person2:: That's great! I am learning Python."
