@@ -6,3 +6,11 @@ NAME=DevOps
 
 SUM=$((NUMBER1 + NUMBER2))
 echo "The sum of $NUMBER1 and $NUMBER2 is: $SUM"
+
+sum=$(($NUMBER1 + $NUMBER2+$NAME))
+echo "SUM is: ${sum}"
+
+LEADERS=("modi" "trump" "putin" "biden")
+echo "First leader is: ${LEADERS[0]}"
+echo "All leaders are: ${LEADERS[@]}"
+echo "First Leader: ${LEADER[10]}"
