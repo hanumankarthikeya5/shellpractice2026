@@ -1,0 +1,9 @@
+#!/usr/bin/shell
+
+person1=$1
+person2=$2
+
+echo "$person1:: welcome to the shell scripting world!"
+echo "$person2:: welcome to the $person1 programming world!"
+echo "$person1:: thank you, $person2!"
+echo "$person2:: happy coding, $person1!"
